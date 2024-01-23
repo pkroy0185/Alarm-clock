@@ -36,11 +36,7 @@ function setAlarm() {
 }
 
 function playAlarm() {
-    const greet = document.getElementById('greetings');
-    message = document.createElement("h2");
-    message.innerText = "Have a Nice and Cheerful day :)"
-    greet.appendChild(message)
-    alarmSound.play();
+        alarmSound.play();
 }
 
 function stopAlarm() {
